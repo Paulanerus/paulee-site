@@ -3,7 +3,7 @@
         <span class="text-4xl ml-4">Paul.</span>
         <div class="space-x-7 mr-4 text-lg">
             <a class="relative" href>Kontakt</a>
-            <a class="relative" href="https://github.com/Paulanerus">Github</a>
+            <a class="relative" href="https://github.com/Paulanerus" target="_blank">Github</a>
         </div>
     </div>
 </template>
