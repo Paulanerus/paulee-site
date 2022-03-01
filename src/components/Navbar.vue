@@ -1,6 +1,6 @@
 <template>
     <div
-        class="bg-default-dark text-default-white h-14 flex items-center justify-between container-anim"
+        class="bg-default-dark text-default-white h-14 flex items-center justify-between container-anim shadow-lg"
     >
         <span class="text-4xl ml-4">Paul.</span>
         <div class="space-x-7 mr-4 text-lg">
