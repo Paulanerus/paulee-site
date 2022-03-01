@@ -1,6 +1,6 @@
 <template>
     <div
-        class="max-w-xs border border-default-dark rounded-md shadow-lg transition ease-in-out hover:-translate-y-4 m-4"
+        class="max-w-xs border border-default-dark rounded-md shadow-lg transition ease-in-out hover:-translate-y-4 m-4 hover:shadow-2xl"
     >
         <div class="font-mave p-4">
             <div>
