@@ -13,7 +13,7 @@
 
 <script>
 export default {
-    name: "Entry",
+    name: 'SkillsEntry',
     props: {
         title: String,
         content: String

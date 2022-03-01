@@ -10,7 +10,7 @@ import AboutMe from "./AboutMe.vue";
 import Skills from "./skills/Skills.vue";
 
 export default {
-  name: "Portfolio",
+  name: 'Portfolio',
   components: {
     NavbarVue,
     AboutMe,

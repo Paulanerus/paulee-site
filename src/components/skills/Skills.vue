@@ -27,7 +27,7 @@
 <script>
 import SkillEntry from "./SkillEntry.vue";
 export default {
-    name: "Skills",
+    name: 'Skills',
     components: { SkillEntry }
 }
 </script>
