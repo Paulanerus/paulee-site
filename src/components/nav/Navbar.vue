@@ -1,5 +1,7 @@
 <template>
-    <div class="bg-default-dark text-default-white h-14 flex items-center justify-between">
+    <div
+        class="bg-default-dark text-default-white h-14 flex items-center justify-between container-anim"
+    >
         <span class="text-4xl ml-4">Paul.</span>
         <div class="space-x-7 mr-4 text-lg">
             <a class="relative" href>Kontakt</a>
@@ -14,7 +16,20 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+.container-anim {
+    animation: fadeIn 0.6s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 a::before {
     content: "";
     position: absolute;
