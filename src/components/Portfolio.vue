@@ -4,14 +4,14 @@
 </template>
 
 <script>
-import NavbarVue from "./nav/Navbar.vue";
+import NavbarVue from "./Navbar.vue";
 import AboutMe from "./AboutMe.vue";
 
 export default {
   name: "Portfolio",
   components: {
     NavbarVue,
-    AboutMe
+    AboutMe,
   },
 };
 </script>
