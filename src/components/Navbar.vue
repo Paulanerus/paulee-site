@@ -16,7 +16,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .container-anim {
     animation: fadeIn 0.6s;
 }
