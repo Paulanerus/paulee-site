@@ -1,15 +1,17 @@
 <template>
   <NavbarVue />
-  <h1 class="font-roboto text-center text-default-dark text-6xl mt-72">Moin.</h1>
+  <AboutMe />
 </template>
 
 <script>
 import NavbarVue from "./nav/Navbar.vue";
+import AboutMe from "./AboutMe.vue";
 
 export default {
-  name: 'Portfolio',
+  name: "Portfolio",
   components: {
     NavbarVue,
+    AboutMe
   },
 };
 </script>
