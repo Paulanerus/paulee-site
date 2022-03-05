@@ -4,22 +4,27 @@
         <SkillEntry
             title="Java"
             content="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
+            :rating="3"
         />
         <SkillEntry
             title="Kotlin"
             content="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-        />
-        <SkillEntry
-            title="Vue"
-            content="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
+            :rating="2"
         />
         <SkillEntry
             title="Python"
             content="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
+            :rating="2"
+        />
+        <SkillEntry
+            title="Vue"
+            content="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
+            :rating="1"
         />
         <SkillEntry
             title="C/C++"
             content="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
+            :rating="1"
         />
     </div>
 </template>
