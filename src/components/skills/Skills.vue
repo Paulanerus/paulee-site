@@ -3,27 +3,27 @@
     <div class="flex flex-wrap justify-center max-w-3xl mt-3 mx-auto">
         <SkillEntry
             title="Java"
-            content="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
+            content="The first language I learned and which has also become my favorite language over the years."
             :rating="3"
         />
         <SkillEntry
             title="Kotlin"
-            content="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
+            content="For some time now I've been doing my projects exclusively in Kotlin, because I genuiely like the structure of the language."
             :rating="2"
         />
         <SkillEntry
             title="Python"
-            content="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
+            content="A language I had in school and used several times for small and private projects."
             :rating="2"
         />
         <SkillEntry
             title="Vue"
-            content="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
+            content="Just recently I've developed the joy of working with Vue and look forward to creating future projects with it."
             :rating="1"
         />
         <SkillEntry
             title="C/C++"
-            content="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
+            content="C/C++ accompanies me again and again during my studies, however, privately I deal little with it."
             :rating="1"
         />
     </div>
