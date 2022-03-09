@@ -39,7 +39,7 @@ export default {
     }
     to {
         opacity: 1;
-        margin-top: 6rem;
+        margin-top: 3.5rem;
     }
 }
 </style>
