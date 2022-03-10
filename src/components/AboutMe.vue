@@ -1,7 +1,7 @@
 <template>
     <div class="mt-14 shadow-lg rounded-md max-w-2xl mx-auto container-anim">
         <div class="p-4 m-4">
-            <h1 class="font-roboto text-default-dark text-6xl -mb-2">Hello there!</h1>
+            <h1 class="font-roboto text-default-dark text-5xl mb-1">Hello there!</h1>
             <p class="text-lg font-maven">
                 My name is Paul and I am a {{ age }} year old computer science student from Germany.
                 In school I was already interested in software development and quickly found my way to
