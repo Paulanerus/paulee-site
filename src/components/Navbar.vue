@@ -4,7 +4,7 @@
     >
         <span class="text-4xl ml-4">Paul.</span>
         <div class="space-x-7 mr-4 text-lg">
-            <a class="relative" href>Kontakt</a>
+            <a class="relative" href>Contact</a>
             <a class="relative" href="https://github.com/Paulanerus" target="_blank">Github</a>
         </div>
     </div>
@@ -16,7 +16,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .container-anim {
     animation: fadeIn 0.6s;
 }
