@@ -1,6 +1,6 @@
 ## Portfolio
 
-The source code for my portfolio [website]("https://paulee.dev").
+The source code for my portfolio [website](https://paulee.dev).
 
 Build with [Vue.js](https://vuejs.org/), [TailwindCSS](https://tailwindcss.com/) and [Vite](https://vitejs.dev/).
 
