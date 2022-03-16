@@ -1,14 +1,24 @@
 <template>
-  <Portfolio/>
+  <NavbarVue />
+  <AboutMe />
+  <Skills />
+  <Projects />
 </template>
 
 <script>
-  import Portfolio from './components/Portfolio.vue'
+import NavbarVue from "./components/Navbar.vue";
+import AboutMe from "./components/AboutMe.vue";
+import Skills from "./components/skills/Skills.vue";
+import Projects from "./components/projects/Projects.vue";
 
-  export default {
+
+export default {
   name: 'App',
   components: {
-    Portfolio,
+    NavbarVue,
+    AboutMe,
+    Skills,
+    Projects
   },
 };
 </script>
