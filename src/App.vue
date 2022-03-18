@@ -1,9 +1,11 @@
 <template>
-  <NavbarVue />
-  <AboutMe />
-  <Skills />
-  <Projects />
-  <MailItem />
+  <div class="container-anim">
+    <NavbarVue />
+    <AboutMe />
+    <Skills />
+    <Projects />
+    <MailItem />
+  </div>
 </template>
 
 <script>
@@ -22,6 +24,21 @@ export default {
     Skills,
     Projects,
     MailItem
-},
+  },
 };
 </script>
+
+<style>
+.container-anim {
+  animation: fadeIn 0.6s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+</style>

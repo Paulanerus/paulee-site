@@ -1,6 +1,6 @@
 <template>
     <div
-        class="bg-default-dark text-default-white h-14 flex items-center justify-between container-anim shadow-lg"
+        class="text-default-dark h-14 flex items-center justify-between shadow-lg fixed left-0 top-0 w-full backdrop-blur-md"
     >
         <span class="text-4xl ml-4">Paul.</span>
         <div class="space-x-7 mr-4 text-lg">
@@ -17,19 +17,6 @@ export default {
 </script>
 
 <style scoped>
-.container-anim {
-    animation: fadeIn 0.6s;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
 a::before {
     content: "";
     position: absolute;
@@ -38,7 +25,7 @@ a::before {
     height: 1px;
     bottom: 0;
     left: 0;
-    background-color: #fff;
+    background-color: #1a1b1f;
     transform: scaleX(0);
     transition: transform 0.18s ease;
 }
